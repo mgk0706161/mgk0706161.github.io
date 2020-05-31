@@ -1,1 +1,0 @@
-# mgk0706161.github.io
