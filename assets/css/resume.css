@@ -47,13 +47,8 @@ p.lead {
   font-weight: 400;
 }
 
-.mgk {
+.mgkdiv {
   display: none;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  /*background-color: #ff0000;*/
-
 }
 
 .subheading {
@@ -106,7 +101,12 @@ p.lead {
 
 @media (max-width: 960px) {
   .mgk {
+    width:70%;
+    border: 0.5rem solid rgba(200, 200, 200);
+  }
+  .mgkdiv {
     display: block;
+    text-align: center;
   }
   .mgk-name{
     text-align: center;
